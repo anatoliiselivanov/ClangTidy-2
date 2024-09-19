@@ -7,9 +7,9 @@ public:
 void MyClass::myFunction()
 {
     int arr[10] = {0};
-    for (int i = 10; i >= 0; i--)
+    for (int j = 10; j >= 0; j--)
     {
-        arr[i] = i;
+        arr[j] = j;
     }
     // Do something
 }
